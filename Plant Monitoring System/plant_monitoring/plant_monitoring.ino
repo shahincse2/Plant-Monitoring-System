@@ -1,4 +1,3 @@
-// Viral Science www.viralsciencecreativity.com www.youtube.com/c/viralscience
 // Blynk IOT Smart Plant Monitoring System
 
 /* Connections
@@ -26,7 +25,7 @@ LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 
 char auth[] = BLYNK_AUTH_TOKEN;  //Enter your Blynk Auth token
-char ssid[] = "Dalim";     //Enter your WIFI SSID
+char ssid[] = "Shahin";     //Enter your WIFI SSID
 char pass[] = "12345678";      //Enter your WIFI Password
 
 DHT dht(D4, DHT11);  //(DHT sensor pin,sensor type)  D4 DHT11 Temperature Sensor
